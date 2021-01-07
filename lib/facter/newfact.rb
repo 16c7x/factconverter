@@ -6,6 +6,7 @@ Facter.add('newfact') do
     if oldfact.between?(100,900)
       newfact = '1100'
     end
-    newfact
+    newfact.to_s
+    #newfact
   end
 end
