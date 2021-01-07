@@ -5,6 +5,8 @@ Facter.add('newfact') do
     convertfact.to_i
     if convertfact.between?(100,900)
       newfact = '1100'
+    else
+      newfact = '2000'
     end
     newfact.to_s
     #newfact
