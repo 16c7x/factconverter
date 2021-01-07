@@ -1,3 +1,4 @@
+# modulename/lib/facter/newfact.rb
 # hiera lookup "%{::newfact}.yaml"
 Facter.add('newfact') do
   setcode do
@@ -9,6 +10,5 @@ Facter.add('newfact') do
       newfact = '2000'
     end
     newfact.to_s
-    #newfact
   end
 end
