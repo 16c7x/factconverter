@@ -1,5 +1,6 @@
 #
 class factconverter {
-  notify { ${::oldfact}: }
-  notify { ${::newfact}: }
+  
+  #notify { $oldfact: }
+  notify { $newfact: }
 }
